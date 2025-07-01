@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "singularName": "question",
+    "pluralName": "questions",
+    "displayName": "Question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "required": {
+      "type": "boolean",
+      "default": true
+    },
+    "question_type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "multiple-choice",
+        "single-choice",
+        "just-click"
+      ]
+    },
+    "options": {
+      "type": "component",
+      "component": "elements.options",
+      "repeatable": true
+    },
+    "branchLogic": {
+      "type": "text"
+    },
+    "questionKey": {
+      "type": "integer"
+    },
+    "answer_type": {
+      "type": "enumeration",
+      "enum": [
+        "email",
+        "zip",
+        "name ",
+        "multiple-choice",
+        "phone_number"
+      ]
+    },
+    "Question_name": {
+      "type": "string"
+    }
+  }
+}

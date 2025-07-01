@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_end_pages",
+  "info": {
+    "displayName": "EndPage"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Next": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
